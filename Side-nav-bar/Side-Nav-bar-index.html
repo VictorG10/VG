@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Responsive Nav-bar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="VG2-style.css">
+        <style>
+            .ul{
+                margin-left: -3vh;
+                margin-top: -2vh;
+            }
+        </style>
+        <!--  CDN Links-->
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <i class='bx bxl-c-plus-plus'></i>
+                    <div class="logo_name">CodingLab</div>
+                </div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+            <ul class="nav_list" style="list-style-type:none;" style="margin: -10px;" >
+                <li>
+                    <a href="#">
+                        <i class='bx bx-search'></i>
+                        <input type="text" placeholder="Search....">
+                    </a>
+                    <span class="links_name">Search</span> 
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="tooltip">Dashboard</span>
+                    </a>
+                    <span class="links_name">Dashboarrd</span> 
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-user'></i>
+                        <span class="tooltip">Username</span>
+                    </a>
+                    <span class="links_name">Username</span> 
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-chat'></i>
+                        <span class="tooltip">Message</span>
+                    </a>
+                    <span class="links_name">Message</span> 
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-pie-chart-alt' ></i>
+                        <span class="tooltip">Analytics</span>
+                    </a>
+                    <span class="links_name">Analytics</span> 
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-folder' ></i>
+                        <span class="tooltip">File Manager</span>
+                    </a>
+                    <span class="links_name">File Manager</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cart' ></i>
+                        <span class="tooltip">Order</span>
+                    </a>
+                    <span class="links_name">Order</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-heart' ></i>
+                        <span class="tooltip">Saved</span>
+                    </a>
+                    <span class="links_name">Saved</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cog' ></i>
+                        <span class="tooltip">Setting</span>
+                    </a>
+                    <span class="links_name">Setting</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="tooltip">Dashboard</span>
+                    </a>
+                    <span class="links_name">Dashboard</span> 
+                </li>
+            </ul>
+            <div class="profile_content">
+                <div class="profile">
+                    <div class="profile_details">
+                    <img src="VG.png.jpg" alt="VG"> 
+                    <div class="name_job"> 
+                        <div class="name">Victor Gbadebo</div>
+                        <div class="job">Software Engineer</div>
+                    </div>
+                    </div>
+                    <i class='bx bx-log-out' id="log_out"></i>
+                </div>
+            </div>
+            <div class="home_content">
+                <div class="text">Home Content</div>
+            </div>
+        <script>
+            let btn = document.querySelector("#btn");
+            let sidebar = document.querySelector(".sidebar");
+            let searchBtn = document.querySelector(".bx-search");
+
+            btn.onclick = function() {
+                sidebar.classList.toggle("active");
+            }
+
+            searchBtn.onclick = function() {
+                searchBtn.classList.toggle("active");
+            }
+
+            btn.onclick = function() {
+                sidebar.classList.toggle("active");
+            }
+        </script>
+    </body>
+</html>
