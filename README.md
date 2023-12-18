@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Victor
-- 👀 I’m interested in building and designing user friendly and user centric products to solve real world problems
-- 🌱 I’m currently learning React js, Next Js and React Native
-- 💞️ I’m looking to collaborate on project that matters
+- 👋 Hi, I’m @Victor.
+- 👀 I’m interested in building and designing user-friendly and user-centric products to solve real-world problems.
+- 🌱 I’m currently learning React JS, Next JS, and Node JS.
+- 💞️ I’m looking to collaborate on  projects that matter.
 - 📫 How to reach me mail: gbadebovictorad@gmail.com or Tel No: 08172924651
 
 <!---
